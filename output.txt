@@ -1,0 +1,305 @@
+apps_domain = apps.dhanu.dreddy.tk
+azs = [
+    us-east-1a,
+    us-east-1b,
+    us-east-1c
+]
+blobstore_kms_key_id = e381cb4d-ed27-4d85-a896-1c0878c44fb0
+dns_zone_id = ZI1FCS2FZQADP
+env_dns_zone_name_servers = [
+    ns-1274.awsdns-31.org.,
+    ns-1787.awsdns-31.co.uk.,
+    ns-277.awsdns-34.com.,
+    ns-791.awsdns-34.net.
+]
+iaas = aws
+infrastructure_subnet_availability_zones = [
+    us-east-1a,
+    us-east-1b,
+    us-east-1c
+]
+infrastructure_subnet_cidrs = [
+    10.0.16.0/28,
+    10.0.16.16/28,
+    10.0.16.32/28
+]
+infrastructure_subnet_gateways = [
+    10.0.16.1,
+    10.0.16.17,
+    10.0.16.33
+]
+infrastructure_subnet_ids = [
+    subnet-0a77e81dcd653ee47,
+    subnet-01ee1ba820da4c394,
+    subnet-04e75220296776b7d
+]
+infrastructure_subnets = [
+    subnet-0a77e81dcd653ee47,
+    subnet-01ee1ba820da4c394,
+    subnet-04e75220296776b7d
+]
+isoseg_elb_name = 
+isoseg_ssl_cert = 
+isoseg_ssl_private_key = 
+management_subnet_availability_zones = [
+    us-east-1a,
+    us-east-1b,
+    us-east-1c
+]
+management_subnet_cidrs = [
+    10.0.16.0/28,
+    10.0.16.16/28,
+    10.0.16.32/28
+]
+management_subnet_gateways = [
+    10.0.16.1,
+    10.0.16.17,
+    10.0.16.33
+]
+management_subnet_ids = [
+    subnet-0a77e81dcd653ee47,
+    subnet-01ee1ba820da4c394,
+    subnet-04e75220296776b7d
+]
+management_subnets = [
+    subnet-0a77e81dcd653ee47,
+    subnet-01ee1ba820da4c394,
+    subnet-04e75220296776b7d
+]
+network_name = vpc-0835db6d9fe5a36c8
+ops_manager_bucket = dhanu-ops-manager-bucket-98101
+ops_manager_dns = pcf.dhanu.dreddy.tk
+ops_manager_iam_instance_profile_name = dhanu_ops_manager
+ops_manager_iam_user_access_key = AKIAJXKUEOZB2TOPRNQQ
+ops_manager_iam_user_name = dhanu_om_user
+ops_manager_iam_user_secret_key = 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
+ops_manager_ip = 10.0.0.16
+ops_manager_private_ip = 10.0.0.16
+ops_manager_public_ip = 3.209.26.251
+ops_manager_security_group_id = sg-0377a9b2c0ea50b30
+ops_manager_ssh_private_key = -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+
+ops_manager_ssh_public_key = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCruS/XAi5ODFSPaN6pjA39XOweriiAYyFaSw/IpA8sdWn93hZQdWbxnc9z5JLL5vRUcaQndbXKJY8eup5Vg8ngFVjfrzLWwg9QgnydjFr9qWWInx0ySKTol+oWIZdvoHAazkHeYNKOs0looWi5j7p8gtPqjTKfMP8Z/h44u6uNRzRzg425wR/4MqIzxM17c24nmEdZ3xgLxP8re19DI4LqUUb0nIscsuMM8GvfuR2jVQyH7rrBCsd7YrGSs+rK0yI+OAOLazkrz+R48hgymeG58niLKZRTRhhlRvHmn79hkLuMwBvrXLPs22e/+x09HZHCkUUWqw5RZDlKsX1a3cEOn42N3+trm4gmsLeSRm30s4AQFplkCDW9bRGojLDlyZ1basMbCWiyB98Q6nDsbQsjsyNrDWZO6zM88x5/kQeipFridyhzo2q2GD6rXQ8frCoE6uWsAUaZpiim36xt0fi7eeEjliQxuoDG4uN05oa1Amn166GHbB+Wk6hDJY0TxgdzCehAsfD9YnjzMyPr4dQiXtzH1YiTrkCY0WExquzrss1XwY7d9BDe7DsTYOnp+tHJCyXvX7bdRw/65eS03kbl92VqZ+9yFLFARFO9MWJgEIodNllnT/nC13XhenPodUro6zDU7+cyLYS1c6d/IqFzvKWiqufWtpNRHb5AeRXt1Q==
+ops_manager_ssh_public_key_name = dhanu-ops-manager-key
+optional_ops_manager_dns = 
+pas_bucket_iam_instance_profile_name = dhanu_pas_bucket_access
+pas_buildpacks_backup_bucket = 
+pas_buildpacks_bucket = dhanu-buildpacks-bucket-98101
+pas_droplets_backup_bucket = 
+pas_droplets_bucket = dhanu-droplets-bucket-98101
+pas_packages_backup_bucket = 
+pas_packages_bucket = dhanu-packages-bucket-98101
+pas_resources_backup_bucket = 
+pas_resources_bucket = dhanu-resources-bucket-98101
+pas_subnet_availability_zones = [
+    us-east-1a,
+    us-east-1b,
+    us-east-1c
+]
+pas_subnet_cidrs = [
+    10.0.4.0/24,
+    10.0.5.0/24,
+    10.0.6.0/24
+]
+pas_subnet_gateways = [
+    10.0.4.1,
+    10.0.5.1,
+    10.0.6.1
+]
+pas_subnet_ids = [
+    subnet-025165564e49d6396,
+    subnet-0e8662b629daeff5a,
+    subnet-0a23926d2c09948d5
+]
+pas_subnets = [
+    subnet-025165564e49d6396,
+    subnet-0e8662b629daeff5a,
+    subnet-0a23926d2c09948d5
+]
+public_subnet_availability_zones = [
+    us-east-1a,
+    us-east-1b,
+    us-east-1c
+]
+public_subnet_cidrs = [
+    10.0.0.0/24,
+    10.0.1.0/24,
+    10.0.2.0/24
+]
+public_subnet_ids = [
+    subnet-0226d88fd3cf4a684,
+    subnet-068195e69a09f7f0f,
+    subnet-0f8b584aa578adf56
+]
+public_subnets = [
+    subnet-0226d88fd3cf4a684,
+    subnet-068195e69a09f7f0f,
+    subnet-0f8b584aa578adf56
+]
+rds_address = 
+rds_password = 
+rds_port = 
+rds_username = 
+region = us-east-1
+services_subnet_availability_zones = [
+    us-east-1a,
+    us-east-1b,
+    us-east-1c
+]
+services_subnet_cidrs = [
+    10.0.8.0/24,
+    10.0.9.0/24,
+    10.0.10.0/24
+]
+services_subnet_gateways = [
+    10.0.8.1,
+    10.0.9.1,
+    10.0.10.1
+]
+services_subnet_ids = [
+    subnet-075fe8685365263f9,
+    subnet-071e63796ef932c2e,
+    subnet-08c4dfac0449a2cc3
+]
+services_subnets = [
+    subnet-075fe8685365263f9,
+    subnet-071e63796ef932c2e,
+    subnet-08c4dfac0449a2cc3
+]
+ssh_elb_name = dhanu-ssh-elb
+ssh_lb_name = dhanu-ssh-elb
+ssl_cert = -----BEGIN CERTIFICATE-----
+MIID1jCCAr6gAwIBAgIEXHAdpDANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJJ
+TjESMBAGA1UECAwJa2FybmF0YWthMREwDwYDVQQHDAhiYW5nbG9yZTELMAkGA1UE
+CgwCZGgxDzANBgNVBAsMBmRyZWRkeTEOMAwGA1UEAwwFRGhhbnUwHhcNMTkwMjIy
+MTYwNDUyWhcNMjAwMjIyMTYwNDUyWjBiMQswCQYDVQQGEwJJTjESMBAGA1UECAwJ
+a2FybmF0YWthMREwDwYDVQQHDAhiYW5nbG9yZTELMAkGA1UECgwCZGgxDzANBgNV
+BAsMBmRyZWRkeTEOMAwGA1UEAwwFRGhhbnUwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDTpd60ZFx95zw34PbAxp+JppRbTtVmEeTbaUU2NRktG3s4lq9u
+J+UCZghi9rTvpGgtFHM5SiZx6xI/dXJZZwrVlbSJZLbt2z/pt2VRKTLoC8aOOX3V
+8HtX/czYVuj9JqoCL+j12voWcZz7NKqSdAG0ZYhP8I4mpA+8jZy9WzDUolZbiHU5
+N1N2/gsH7eWc+nrCubYGiNkb/zkIaR7LdZ7iFdRjTTEC141C+QWk9ebuB31ld8lw
+fNsaANxfvXJvQAvpljZxQLgM4vOLcLnJ410KCrjOHwCPNg/KHQIIGHmKpqrqB4ep
+kZTJQjEAu6qXxvpseuHjuyfRukxwrXW84skbAgMBAAGjgZMwgZAwgY0GA1UdEQSB
+hTCBgoIQKi5hcHBzLmRyZWRkeS50a4IVKi5sb2dpbi5zeXMuZHJlZGR5LnRrgg8q
+LnN5cy5kcmVkZHkudGuCEyoudWFhLnN5cy5kcmVkZHkudGuCD2RoYW51LmRyZWRk
+eS50a4IPZGhvbmkuZHJlZGR5LnRrgg9yZWRkeS5kcmVkZHkudGswDQYJKoZIhvcN
+AQELBQADggEBAFI2r25BcGvSWihTh1JJdvHouQpHJP/54Japg4kmHjnGw2nHtvdV
+FWEAsy+6uTylGnRifSTvzwZNUSN6RE+T5tDysuVyglIbVyjE6IKdLxcmz78EMJKY
+gBVdwBQnLO8BZzlOxb0ubOAq9sy1+546X1Emy1Rmg4w1EXmRhGppWyzHZhpvNRuK
+rWj46gb31JlDS+JfYNR1/bUFRcv8RFmaijllksEtO+5cGQTk7AMhFTi2M5SWkm/6
+/MVf4n5gIGnt48N3lmz8ifDGpRmJHh8vg1iT54bQD0OXywMhU1p6d+C7oXTtGcGn
+X8xPC99XXMth2OBYlmh6tjS3LRW4lLKQois=
+-----END CERTIFICATE-----
+
+ssl_cert_arn = 
+ssl_private_key = -----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDTpd60ZFx95zw3
+4PbAxp+JppRbTtVmEeTbaUU2NRktG3s4lq9uJ+UCZghi9rTvpGgtFHM5SiZx6xI/
+dXJZZwrVlbSJZLbt2z/pt2VRKTLoC8aOOX3V8HtX/czYVuj9JqoCL+j12voWcZz7
+NKqSdAG0ZYhP8I4mpA+8jZy9WzDUolZbiHU5N1N2/gsH7eWc+nrCubYGiNkb/zkI
+aR7LdZ7iFdRjTTEC141C+QWk9ebuB31ld8lwfNsaANxfvXJvQAvpljZxQLgM4vOL
+cLnJ410KCrjOHwCPNg/KHQIIGHmKpqrqB4epkZTJQjEAu6qXxvpseuHjuyfRukxw
+rXW84skbAgMBAAECggEAFW93skJ14aSBQ1GL/DNBpjHSVbsSvt8yFAzB3z8aeSiO
+3sjYJKpytb76u3csFRdMG8C1+MfrQ99gfj/ZYHegr8gVPFMQed+aRgP2hXVMPBcx
+OWdWOMw92cgRLpoCx9zaHBWZHQlcCdjg4spPOjz4jTo5R4tgAkbcdybKiJ0LQYWu
+Xd1R/Nfrt4E139PDX+3hnU6X5Do7v+mg0IRLVszdrVVOANd2Fr41B4p21OmUpwOv
+3YHjK2+nbGCJKGP3ca+a5682sFYqB1Kx/VmOpYxVW7OJiJZGXEu0XKeJLTj3eBxL
+PdGfhGco9xqY8RiC73RfSYVqH7uuL0TjhJ8KiQ0GBQKBgQDpx1xYq0tjj1/1yDnv
+ZQl5ubPDqBUp4+Tr3CKR8DCmVIboCy2j2mVX8VG2yZPuXStn+fZ9tY8VB9lKlift
+d5Fe9OqGjZ4+PrQJFWwD42JsskZRAzdoNQhgYjIPXDTJINESIh8C++suP47JaA7V
+MgQ3qroaguvSoVDl1s8DZkU7bwKBgQDnw/2GtWGH6DLnt4zOhhxB175f8xw7EFLk
+bxd7jgcRp026pIxvAjaNHHK+Zwshha5TldMS8cy02UlattDJYe/zHtJba/Yn57n2
+oLFiB1OQ+vSgaB5EsaZcVZUP1rbnRkOK7ix2o2c180yxwbHdmDxDIxLPFhI7wUXo
+Dn+ejcknFQKBgQCPJhYz7V/SbP6zf5GKN3If6UhcLFYZOoT4r+kzN8JydxvMhtvB
+k3+u5APHS5Obx81Gc9ctjrk4hX/Wni+Ax1BqtsnM7nbRYo/XaBimINwp9tf7z15k
+HuUsL7S7lxhzd/bNhbs7loqh3SVPyroabfALLi2bAkPozAK/WlOUn1ERXQKBgQCr
+oQPaAe/bySQJXG+1cLL0P2QHgeziAFCiQXJOWPr7I733/WrRuf3TucFvJrejd2+F
+DmpkmRNSyaX8u20Z9KDQlX6JnQWIv52C+bTiNzK3JmCJeRERJc1giy/7rrF7yxix
+hXb/1DnWRfoBmMKyqs3Vmd+P43RVM+ck1bfEHpNbkQKBgQCvNwkun1bdQVWgtqO+
+xIPv1LBWAj3H9SP1bZN74Fnt/e5ZpeysR9OtmiFpmMD0tTFeYiexxAobk1HAfiRt
+t/BsF8fbi3rwXZ2w2MUDdOTzyEsd8kjvrNohZMGPtiIQOOZnXtXwoIUm1bohAW5v
+oq/KP3FNK+/VFlzcN0bMswTx1w==
+-----END PRIVATE KEY-----
+-----BEGIN CERTIFICATE-----
+MIID1jCCAr6gAwIBAgIEXHAdpDANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJJ
+TjESMBAGA1UECAwJa2FybmF0YWthMREwDwYDVQQHDAhiYW5nbG9yZTELMAkGA1UE
+CgwCZGgxDzANBgNVBAsMBmRyZWRkeTEOMAwGA1UEAwwFRGhhbnUwHhcNMTkwMjIy
+MTYwNDUyWhcNMjAwMjIyMTYwNDUyWjBiMQswCQYDVQQGEwJJTjESMBAGA1UECAwJ
+a2FybmF0YWthMREwDwYDVQQHDAhiYW5nbG9yZTELMAkGA1UECgwCZGgxDzANBgNV
+BAsMBmRyZWRkeTEOMAwGA1UEAwwFRGhhbnUwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDTpd60ZFx95zw34PbAxp+JppRbTtVmEeTbaUU2NRktG3s4lq9u
+J+UCZghi9rTvpGgtFHM5SiZx6xI/dXJZZwrVlbSJZLbt2z/pt2VRKTLoC8aOOX3V
+8HtX/czYVuj9JqoCL+j12voWcZz7NKqSdAG0ZYhP8I4mpA+8jZy9WzDUolZbiHU5
+N1N2/gsH7eWc+nrCubYGiNkb/zkIaR7LdZ7iFdRjTTEC141C+QWk9ebuB31ld8lw
+fNsaANxfvXJvQAvpljZxQLgM4vOLcLnJ410KCrjOHwCPNg/KHQIIGHmKpqrqB4ep
+kZTJQjEAu6qXxvpseuHjuyfRukxwrXW84skbAgMBAAGjgZMwgZAwgY0GA1UdEQSB
+hTCBgoIQKi5hcHBzLmRyZWRkeS50a4IVKi5sb2dpbi5zeXMuZHJlZGR5LnRrgg8q
+LnN5cy5kcmVkZHkudGuCEyoudWFhLnN5cy5kcmVkZHkudGuCD2RoYW51LmRyZWRk
+eS50a4IPZGhvbmkuZHJlZGR5LnRrgg9yZWRkeS5kcmVkZHkudGswDQYJKoZIhvcN
+AQELBQADggEBAFI2r25BcGvSWihTh1JJdvHouQpHJP/54Japg4kmHjnGw2nHtvdV
+FWEAsy+6uTylGnRifSTvzwZNUSN6RE+T5tDysuVyglIbVyjE6IKdLxcmz78EMJKY
+gBVdwBQnLO8BZzlOxb0ubOAq9sy1+546X1Emy1Rmg4w1EXmRhGppWyzHZhpvNRuK
+rWj46gb31JlDS+JfYNR1/bUFRcv8RFmaijllksEtO+5cGQTk7AMhFTi2M5SWkm/6
+/MVf4n5gIGnt48N3lmz8ifDGpRmJHh8vg1iT54bQD0OXywMhU1p6d+C7oXTtGcGn
+X8xPC99XXMth2OBYlmh6tjS3LRW4lLKQois=
+-----END CERTIFICATE-----
+
+sys_domain = sys.dhanu.dreddy.tk
+tcp_domain = tcp.dhanu.dreddy.tk
+tcp_elb_name = dhanu-tcp-elb
+tcp_lb_name = dhanu-tcp-elb
+vms_security_group_id = sg-0bd567d6d452d3dcc
+vpc_id = vpc-0835db6d9fe5a36c8
+web_elb_name = dhanu-web-elb
+web_lb_name = dhanu-web-elb
